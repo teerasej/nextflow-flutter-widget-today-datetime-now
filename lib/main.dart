@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter 3 นาที: วันที่กับ DateTime'),
+      home: MyHomePage(title: 'Flutter 3 นาที: วันเวลากับ DateTime'),
     );
   }
 }
