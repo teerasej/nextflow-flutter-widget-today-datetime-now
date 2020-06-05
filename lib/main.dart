@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
    
-    var now = DateTime.now();
+    
 
 
     return Scaffold(
@@ -46,11 +46,11 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-              'วันนี้วันที่ ${now.day} เดือน ${now.month} ปี ${now.year}',
+              'วันนี้วันที่  เดือน  ปี ',
               style: TextStyle(fontSize: 20)
             ),
             Text(
-              'เวลา ${now.hour} นาฬิกา ${now.minute} นาที ${now.second} วินาที',
+              'เวลา  นาฬิกา  นาที  วินาที',
               style: TextStyle(fontSize: 20)
             )
           ],
