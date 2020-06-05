@@ -1,16 +1,20 @@
-# nextflow_datetime_1
+# Flutter 3 นาทีกับโค้ชพล: DateTime.now()
 
-A new Flutter project.
+โปรเจค Flutter สำหรับฝึกฝนเรียนรู้การใช้งาน Flutter กับโค้ชพลนะครับ ในรอบนี้มารู้จักกับ DateTime และการดึงเวลาปัจจุบันมาใช้ในการทำงานของแอพพลิเคชั่น
 
-## Getting Started
+- เรียกเวลาปัจจุบันมาใช้งานจากในแอพพลิเคชั่น
+- แสดงวัน เดือน ปี
+- แสดงชั่วโมง นาที วินาที
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## ดูคลิปทำตามได้ที่นี่เลย 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+สามารถกด subscribe ติดตามคลิปเรื่อง Flutter และคลิปใหม่ๆ ได้ผ่านช่อง Youtube ของโค้ชพลนะครับ 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://youtu.be/bOcWzb41jIA
+
+## เริ่มต้นเรียนรู้สร้างแอพ iOS และ Android ด้วย Google Flutter 
+
+ออกแบบให้เข้าใจง่าย ฝึกทำและเรียนรู้จากแอพจริง ดูรายละเอียดและซื้อได้ที่ลิ้งค์ด้านล่างเลยครับ 
+
+https://nextflow.in.th/google-flutter-online/
