@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter 3 นาที: วันที่กับ DateTime'),
+      home: MyHomePage(title: 'Flutter 3 นาที: วันเวลากับ DateTime'),
     );
   }
 }
@@ -28,34 +28,26 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  
-
   @override
   Widget build(BuildContext context) {
-   
     var now = DateTime.now();
 
-
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Container(
-        padding: EdgeInsets.all(10),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Text(
-              'วันนี้วันที่ ${now.day} เดือน ${now.month} ปี ${now.year}',
-              style: TextStyle(fontSize: 20)
-            ),
-            Text(
-              'เวลา ${now.hour} นาฬิกา ${now.minute} นาที ${now.second} วินาที',
-              style: TextStyle(fontSize: 20)
-            )
-          ],
-        )
-      )
-    );
+        appBar: AppBar(
+          title: Text(widget.title),
+        ),
+        body: Container(
+            padding: EdgeInsets.all(10),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                    'วันนี้วันที่ ${now.day} เดือน ${now.month} ปี ${now.year}',
+                    style: TextStyle(fontSize: 20)),
+                Text(
+                    'เวลา ${now.hour} นาฬิกา ${now.minute} นาที ${now.second} วินาที',
+                    style: TextStyle(fontSize: 20))
+              ],
+            )));
   }
 }
